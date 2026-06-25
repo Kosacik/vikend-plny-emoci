@@ -12,7 +12,7 @@
         </h2>
 
         <p className="mb-12 text-center text-xl">
-          Napiš pár slov o sobě.
+          Napiš pár slov →
         </p>
 
         <form className="space-y-6">
