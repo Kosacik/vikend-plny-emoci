@@ -156,15 +156,12 @@ export default function StoryGallery() {
 
           <div>
             <h3 className="text-3xl mb-6">
-              Zpomalit.
+              Změnit.
             </h3>
 
             <p className="text-lg leading-relaxed opacity-80">
-              Ráno bez spěchu.
-              Čas na kávu.
-              Na ticho.
-              Na rozhovory,
-              které obvykle odkládáme.
+              Některé víkendy změní víc
+              než celý rok.
             </p>
           </div>
        
