@@ -161,6 +161,7 @@ export default function StoryGallery() {
 
             <p className="text-lg leading-relaxed opacity-80">
               Některé víkendy změní víc
+              <br />
               než celý rok.
             </p>
           </div>
