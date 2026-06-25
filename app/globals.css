@@ -1,26 +1,56 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f7f4ef;
+  --foreground: #2d2d2d;
+
+  --sand: #e8dfcf;
+  --ocean: #567a8a;
+  --sunset: #d9822b;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-cormorant);
+}
+
+.section {
+  @apply max-w-6xl mx-auto px-6 md:px-10;
+}
+.manifest-accent {
+  color: var(--sunset);
+  font-weight: 300;
+  font-style: italic;
+}
+.cta-button {
+  border: 1px solid var(--sunset);
+  background: transparent;
+
+  letter-spacing: 0.1em;
+
+  color: var(--foreground);
+
+  padding: 0.95rem 2rem;
+
+  border-radius: 999px;
+
+  transition: all 0.35s ease;
+}
+
+.cta-button:hover {
+  background: rgba(217, 130, 43, 0.08);
+
+  transform: translateY(-1px);
 }
