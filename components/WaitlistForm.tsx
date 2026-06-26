@@ -52,7 +52,7 @@ export default function WaitlistForm() {
           <p className="text-xl opacity-80 leading-relaxed">
             Ozveme se,
             <br />
-            až přijde správný čas.
+            hned jak přijde správný čas.
           </p>
 
         </div>
